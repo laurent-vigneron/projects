@@ -1,0 +1,47 @@
+body {
+  background-image: url('https://wallpapercave.com/wp/94q1jYx.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.card {
+  opacity: 0.95;
+}
+
+h1, #display {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+#c1, #c4, #c7 {
+  border-left: 1px solid #17a2b8;
+  border-right: 1px solid #17a2b8;
+}
+
+#c3, #c4, #c5 {
+  border-top: 1px solid #17a2b8;
+  border-bottom: 1px solid #17a2b8;
+}
+#grid {
+  margin: 1em;
+  width: 300px;
+}
+.cell {
+  width: 100px;
+  height: 100px;
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 8em;
+  padding: 0;
+  margin: 0;
+  line-height: 0.8em;
+  
+}
+
+.blue {
+  color: blue;
+}
+
+.red {
+  color: red;
+}
